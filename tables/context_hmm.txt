@@ -1,0 +1,33 @@
+name	threshold	description
+CyaG	1.00E-07	Cyanobactin biosyntesis
+lanl	0.003	LanL domain
+LinL	1.00E-07	Linaridin biosyntesis
+PF00005	0.003	ABC transporter
+PF00069	0.003	Protein kinase domain
+PF00072	0.003	Response regulator receiver domain
+PF00082	0.003	Peptidase_S8
+PF00296	0.003	Luciferase-like monooxygenase
+PF00486	0.003	Transcriptional regulatory protein, C terminal
+PF00512	0.003	His Kinase A (phosphoacceptor) domain
+PF00535	0.0000001	Glycos_transf_2
+PF01320	0.003	Pyocin immunity protein
+PF02441	0.003	Flavoprotein domain indicator for LanD protein
+PF02518	0.003	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase
+PF03412	0.003	C39 Peptidase 
+PF03526	0.003	Microcin immunity protein motif
+PF03857	0.003	Colicin immunity protein motif
+PF04737	0.003	Lantibiotic dehydratase N terminus
+PF04738	0.003	Lantibiotic dehydratase C terminus
+PF05147	0.003	LANC_like Lanthionine synthetase C-like protein
+PF08951	0.003	Enterocin A Immunity
+Sac_1	1.00E-07	Sactipeptides biosyntesis
+PF02624	1.00E-07	LAP or bottromycin biosynthesis
+PF02794	1.00E-07	Microcin biosynthesis
+PF13471	1.00E-07	Lasso peptide biosynthesis
+PF12730	3.00E-03	ABC transporter
+labKC	0.00001	LanKC domain
+PF13437	0.00000001	bacterial haemolysin translocator
+PF00881	0.00001	Nitroreductase
+PF00733	0.00001	Asn_synthase
+PF01944	0.00001	DUF95
+httB	0.5	AS48B like protein

@@ -1,0 +1,300 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html>
+
+  <head>
+          <title>Pfam</title>
+    <meta name="verify-v1" content="GjV+z5lf7mSCShhAOJZh1UW8J+iiCgWmbxIFg2GkG0Q=" />
+<meta name="verify-v1" content="FA9AR+bh3BmS05vcSp0mbiAB80DgELEAkFvu4q9ViC8=" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Description" content="Pfam is a large collection of protein families, represented by multiple sequence alignments and hidden Markov models (HMMs)" />
+
+
+<!-- ====================================================================== -->
+<!-- make the site RSS feed discoverable --> 
+
+<link href="http://xfam.wordpress.com/tag/pfam/feed/" 
+      rel="alternate"
+      type="application/rss+xml"
+      title="Pfam News" />
+
+<!-- ====================================================================== -->
+<!-- third-party javascript libraries
+
+     we are now loading third-party libraries from remote sites. We get
+     prototype and scriptaculous from googleapis and the YUI components 
+     for tree viewing directly from yahoo
+--> 
+
+<!-- prototype / scriptaculous -->
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/prototype/1.7.1.0/prototype.js"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/scriptaculous/1.9.0/scriptaculous.js"></script>
+
+<!-- YUI -->
+<script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/yahoo-dom-event/yahoo-dom-event.js"></script>
+<script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/element/element-min.js"></script>
+
+<script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/tabview/tabview-min.js"></script>
+<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.0r4/build/tabview/assets/skins/sam/tabview.css"/>
+
+<script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/treeview/treeview-min.js"></script>
+<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.0r4/build/treeview/assets/skins/sam/treeview.css" />
+
+<script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/history/history-min.js"></script>
+
+<script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/utilities/utilities.js"></script> 
+
+<!-- google analytics -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-31160966-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+<!-- urchin -->
+<script type="text/javascript" src="http://js.sanger.ac.uk/urchin.js" ></script>
+
+
+<!-- prototip -->
+<script type='text/javascript' src='http://pfam.sanger.ac.uk/shared/javascripts/prototip.js'></script>
+<script type='text/javascript' src='http://pfam.sanger.ac.uk/shared/javascripts/styles.js'></script>
+<link rel='stylesheet' href='http://pfam.sanger.ac.uk/shared/css/prototip.css' type='text/css' />
+
+<!-- ====================================================================== -->
+<!-- local javascript files -->
+
+<!-- local javascript -->
+<script type="text/javascript" src="http://pfam.sanger.ac.uk/shared/javascripts/sharedFunctions.js"></script>
+<script type="text/javascript" src="http://pfam.sanger.ac.uk/static/javascripts/pfFunctions.js"></script>
+
+<!-- ====================================================================== -->
+<!-- local stylesheets -->
+
+<!-- global stylesheet -->
+<link rel="stylesheet" href="http://pfam.sanger.ac.uk/static/css/pfam.css" type="text/css" />
+<link rel="stylesheet" href="http://pfam.sanger.ac.uk/shared/css/buttons.css" type="text/css" />
+
+<!-- site-specific stylesheet -->
+<link rel="stylesheet" href="http://pfam.sanger.ac.uk/static/css/wtsi.css" type="text/css" />
+
+<!-- ====================================================================== -->
+<!-- load dynamically required stylesheets and javascript files-->
+
+
+
+<!-- required javascripts -->
+
+<!-- javascripts applicable to IE -->
+<!--[if IE]>
+<![endif]-->
+
+<!-- styles applicable to all browsers -->
+
+<!-- styles applicable to IE6 and below -->
+<!--[if lt IE 7 ]>
+  <link rel="stylesheet" href="http://pfam.sanger.ac.uk/static/css/ie.css" type="text/css" />
+<![endif]-->
+
+<!-- styles applicable to all versions of IE -->
+<!--[if IE ]>
+  <link rel="stylesheet" href="http://pfam.sanger.ac.uk/static/css/all_ie.css" type="text/css" / >
+<![endif]-->
+
+<!-- ====================================================================== -->
+<!-- set the favicon -->
+
+<link rel="shortcut icon" 
+      type="image/png" 
+      href="http://pfam.sanger.ac.uk/static/images/favicon.png" />
+      
+<!-- ====================================================================== -->
+  </head>
+
+  <body>
+
+        <!--[if IE]>
+        <iframe id="yui-history-iframe" src="http://pfam.sanger.ac.uk/shared/images/blank.gif"></iframe>
+    <![endif]-->
+    <div><input id="yui-history-field" type="hidden" /></div>
+
+    
+<!-- header starts here -->
+
+<div id="header">
+
+  <div id="navbar" class="column">
+    <ul>
+          <li>
+                  <a href="http://pfam.sanger.ac.uk/">HOME</a>
+        &nbsp;|&nbsp;       </li>
+          <li>
+                  <a href="http://pfam.sanger.ac.uk/search">SEARCH</a>
+        &nbsp;|&nbsp;       </li>
+          <li>
+                  <a href="http://pfam.sanger.ac.uk/browse">BROWSE</a>
+        &nbsp;|&nbsp;       </li>
+          <li>
+                  <a href="ftp://ftp.sanger.ac.uk/pub/databases/Pfam">FTP</a>
+        &nbsp;|&nbsp;       </li>
+          <li>
+                  <a href="http://pfam.sanger.ac.uk/help">HELP</a>
+        &nbsp;|&nbsp;       </li>
+          <li>
+                  <a href="http://pfam.sanger.ac.uk/about">ABOUT</a>
+               </li>
+        </ul>
+  </div>
+  
+  <div class="siteLogoHolder column">
+    <a href="http://www.sanger.ac.uk/">
+      <img alt="Wellcome Trust Sanger Institute" 
+           id="siteLogo" 
+           src="http://pfam.sanger.ac.uk/shared/images/blank.gif" /></a>
+  </div>
+
+  <div class="pfamLogoHolder column">
+    <a href="http://pfam.sanger.ac.uk/">
+      <img alt="Pfam" 
+           id="pfamLogo" 
+           src="http://pfam.sanger.ac.uk/shared/images/blank.gif" /></a>
+    <form action="http://pfam.sanger.ac.uk/search/keyword" 
+          id="siteSearchForm">
+      <div id="searchBox">
+        <input class="entryField"
+             type="text" 
+             onfocus="if(!ssCleared){this.value='';ssCleared=true;}" 
+             name="query" 
+             id="siteSearchField" />
+        <a class="btn go"
+           onclick="if($F('siteSearchField')){if(ssCleared){$('siteSearchForm').submit();}}">
+          <span class="btn-inner">Go</span></a>
+      </div>
+    </form>
+  </div>
+
+</div>
+
+<div class="cleaner"><!-- empty --></div>
+
+<div id="jsWarning" class="warningBox">
+  <strong>Please note:</strong> this site relies heavily on the use of javascript. 
+  Without a javascript-enabled browser, this site will not function correctly. 
+  Please enable javascript and reload the page, or switch to a different browser.
+</div>
+<script type="text/javascript">
+  // <![CDATA[
+  $("jsWarning").hide();
+
+  $("siteSearchField").value = "keyword search";
+  var ssCleared = false;
+  // ]]>
+</script>
+<!-- web-pfam4 / 1744 -->
+
+<!-- header end -->
+
+
+    <!-- start of content -->
+    
+
+
+
+
+
+<!-- start error report -->
+
+<div class="errorReport">
+
+  
+
+  
+
+    <p>There was a problem loading the requested family page.</p>
+
+    
+
+  
+
+
+  <p>
+    This could be due to an error in the site, or because you followed a broken 
+    link from within this website or on an external site that links to us. 
+    Alternatively you may have entered an accession or ID which does not exist
+		.  </p>
+
+  <p>
+    You might like to go <a href="javascript:history.go(-1)">back</a> to the
+    previous page
+    or report a broken link in the site.
+  </p>
+
+</div>
+
+<script type="text/javascript">
+  // <![CDATA[
+
+  
+  var errorReport  = $$(".errorReport").first();
+  var errorWrapper = errorReport.up();
+
+  if ( errorWrapper.nodeName !== "BODY" ) {
+    var errorReportEl = errorReport.remove();
+    errorWrapper.update( errorReportEl );
+  }
+
+  // ]]>
+</script>
+
+<!-- end error report -->
+
+
+    <!-- end of content -->
+
+    
+    <!-- start of footer -->
+    <div id="footer"></div>
+
+    <div class="cleaner"><!-- wrap --></div>
+    <!-- end of footer -->
+
+    
+
+<!-- footer start -->
+
+<div id="siteFooter">
+  <p>
+    Comments or questions on the site? Send a mail to <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#112;&#102;&#97;&#109;&#45;&#104;&#101;&#108;&#112;&#64;&#115;&#97;&#110;&#103;&#101;&#114;&#46;&#97;&#99;&#46;&#117;&#107;">&#112;&#102;&#97;&#109;&#45;&#104;&#101;&#108;&#112;&#64;&#115;&#97;&#110;&#103;&#101;&#114;&#46;&#97;&#99;&#46;&#117;&#107;</a>.&nbsp;
+    Our <a href="http://pfam.sanger.ac.uk/help?tab=helpPrivacyBlock">cookie policy</a>.
+  </p>
+  <p class="spaced"><a href="http://www.wellcome.ac.uk/">The Wellcome Trust</a></p>
+</div>
+
+<!-- urchin code -->
+<script type="text/javascript">
+  // <![CDATA[
+  _userv=0;
+  _ugifpath="http://pfam.sanger.ac.uk/shared/images/__utm.gif"; 
+  urchinTracker();
+  // ]]>
+</script>
+
+<!-- footer end -->
+
+    <script type="text/javascript">
+      // <![CDATA[
+      Event.observe( window, 'load', addHoverListeners, false );
+      // ]]>
+    </script>
+
+  </body>
+
+</html>
+

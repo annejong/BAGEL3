@@ -1,0 +1,26 @@
+name	threshold	description
+PF01721	0.01	Class II bacteriocin
+PF02052	0.1	Gallidermin
+PF04369	0.1	Lactococcin Lactococcin-like family
+PF04454	0.1	Linocin M18 bacteriocin protein
+PF04604	0.1	Type-A lantibiotic
+PF08109	0.0000001	Lactocin 705 family
+PF08129	0.1	Alpha/beta enterocin family
+PF08130	0.1	Antimicrobial18 Type A lantibiotic family
+PF09221	0.1	Bacterioc_AS-48 Bacteriocin AS-48
+PF09683	0.1	Lactococcin_972 Bacteriocin (Lactococcin_972)
+PF10439	0.1	Bacteriocin_IIc Bacteriocin class II with double-glycine leader peptide
+ggmotif	0.0001	ggmotif (Dirix et al.)
+LE-LAC481	0.35	Lantibiotic leader lacticin 481 group
+LE-MER+2PEP	0.25	Lantibiotic leader mersacidin cinnamycin group
+LE-LanBC	0.1	Lantibiotic leader LanBC modified
+MA-LAC481	0.1	Lantibiotic peptide lacticin 481 group
+MA-NIS+EPI	0.0001	Lantibiotic peptide nisin epidermin group
+MA-NIS	0.01	Lantibiotic peptide nisin group
+MA-EPI	0.4	Lantibiotic peptide epidermin group
+MA-2PEPA	0.45	Lantibiotic peptide two component alpha 
+MA-2PEPB	0.4	Lantibiotic peptide two component beta
+LE-DUF	0.3	lantibiotic peptide lacticin 481 group (dufour et al)
+MA-DUF	0.4	lantibiotic leader lacticin 481 group (dufour et al)
+leaderLanBC	0.4	Leader Processing site 
+leaderLanM	0.4	Leader Processing site 
